@@ -1,35 +1,67 @@
 ---
-title: Home
+title: Introduction
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+The objective of this website is to describe the different folders and files that this techbook contains.
 
-More specifically, the created site:
+Code exercises are expected to be coded with typescript as it is by far the stack we use the most at SpaceDev. You can find the exercises in [this repository].
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## 01-Basic initial knowledge
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+The document has references to videos and documentation that the technical or non-technical reader can access for their first introduction to Blockchain. Does not require prior knowledge.
 
-To get started with creating a site, simply:
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+## 02-Fundamental theoretical knowledge
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+This content is aimed at developers who must gather initial, basic technical knowledge prior to developing on any of the three fronts.
 
-----
+The purpose of this content is to expand the capabilities of the developer, so that he himself is not limited to what is already known, or to what has already been implemented by other colleagues, but can question existing solutions, suggest improvements and this is only possible if he knows the background of technology.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+To exemplify the above. A backend developer without much web3 experience could make new invocations to new smart contracts but may not have enough knowledge to detect:
+Because a transaction is not mined or takes a long time to be included in a block.
+Because you cannot execute transactions concurrently with the same wallet in EVM
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Each topic of knowledge presented here is accompanied by a practical test that helps reaffirm theoretical knowledge. In cases where it does not apply, it is recommended to try to explain what you have learned to a classmate.
+
+## 03-Smart contract Dev with Solidity
+
+This document is aimed at developers who want to get involved in the development of smart contracts with Solidity.  
+
+It has the following sections:
+
+ - **Basic level**: The essentials of solidity.
+ - **Advanced level**: Appropriate content to be able to play a role in a productive environment. Topics are covered such as deployment, testing of different types, use of upgradeability patterns, gas optimization.
+ - **Specific Issues**: Issues that have been highlighted as recurring or complex and have already been faced/resolved within Space are described.
+
+## 04-Blockchain Backend
+
+This document is aimed at developers who want to get involved in the development of backends in web3 projects.
+
+It has the following sections:
+
+ - **Specific Issues**: Issues that have been highlighted as recurring or complex and have already been faced/resolved within Space are described.
+ - **Tools/services**  
+
+## 05-Frontend Blockchain
+
+This document is aimed at developers who want to get involved in the development of frontends in web3 projects.
+
+It has the following sections:
+
+ - **Specific Issues**: Issues that have been highlighted as recurring or complex and have already been faced/resolved within Space are described.
+ - **Tools/services**
+
+## Specific-Knowledge
+
+In this section there are documents that detail very specific knowledge in depth. A document under this folder is justified if:
+
+ - Expands a section of the previous documents that requires greater depth.
+ - It covers a very specific, not so common, common topic.
+
+
+
+[this repository]: https://github.com/SpaceUY/blockchain-techbook

@@ -1,8 +1,11 @@
-title: Just the Docs Template
+title: Blockchain Guidelines
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
+favicon_ico: /assets/images/SpaceDev_logo.svg
 
 url: https://just-the-docs.github.io
+
+search_enabled: true
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template

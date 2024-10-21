@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 
-The objective of this website is to describe the different folders and files that this techbook contains.
+The objective of this page is to describe the different sections and files that this techbook contains.
 
 Code exercises are expected to be coded with typescript as it is by far the stack we use the most at SpaceDev. You can find the exercises in [this repository].
 

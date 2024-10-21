@@ -1,5 +1,6 @@
 ---
-title: Basic Initial Knowledge
+title: Rust
 layout: home
+parent: Solana
 nav_order: 2
 ---

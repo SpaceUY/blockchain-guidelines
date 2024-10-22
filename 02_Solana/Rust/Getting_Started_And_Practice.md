@@ -4,3 +4,6 @@ layout: home
 parent: Rust
 nav_order: 1
 ---
+
+# Getting Started And Practice
+---

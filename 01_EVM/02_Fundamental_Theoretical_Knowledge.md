@@ -5,6 +5,8 @@ parent: Ethereum Virtual Machine
 nav_order: 2
 ---
 
+# Fundamental Theoretical Knowledge
+---
 
 -   Criptografía
 

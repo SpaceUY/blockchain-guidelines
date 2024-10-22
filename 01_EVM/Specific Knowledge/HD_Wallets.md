@@ -1,5 +1,10 @@
 ---
-title: HD Wallets
+title: HD Wallets (tbd)
 layout: home
 parent: Specific Knowledge
 ---
+
+# HD Wallets
+---
+
+### Coming soon...

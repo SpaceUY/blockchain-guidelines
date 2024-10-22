@@ -5,6 +5,8 @@ parent: Ethereum Virtual Machine
 nav_order: 3
 ---
 
+# Smart Contract Dev With Solidity
+---
 
 [https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015](https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015)
 

@@ -1,13 +1,11 @@
 ---
-title: Blockchain Frontend
+title: Blockchain Frontend (tbd)
 layout: home
 parent: Ethereum Virtual Machine
 nav_order: 5
 ---
 
-(REUNIR PROBLEMAS COMUNES RESUELTOS EN UN FRONTEND, INTEGRACIONES TÍPICAS, ETC)
-(Multichain)
+# Blockchain Frontend
+---
 
-–
-
-Herramientas
+### Coming soon...

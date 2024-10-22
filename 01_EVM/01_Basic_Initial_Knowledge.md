@@ -5,6 +5,9 @@ parent: Ethereum Virtual Machine
 nav_order: 1
 ---
 
+# Basic Initial Knowledge
+---
+
 Video: Año 2022
 [Webinar_ Introducción a Blockchain y NTFs (2022-08-05 14_08 GMT-3).mp4](https://drive.google.com/open?id=1H4mmnFsHGn97pYsGD0OGUnQy_thiIX29)
 

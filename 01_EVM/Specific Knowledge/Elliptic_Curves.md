@@ -1,9 +1,11 @@
 ---
-title: Eliptic Curves
+title: Elliptic Curves
 layout: home
 parent: Specific Knowledge
 ---
 
+# Elliptic Curves
+---
 
 ## Videos:
 

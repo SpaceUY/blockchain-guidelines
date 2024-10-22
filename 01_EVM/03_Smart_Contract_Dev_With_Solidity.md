@@ -10,8 +10,6 @@ nav_order: 3
 
 [https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015](https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015)
 
-  
-
 Construir punto a punto basado en:  [https://docs.google.com/document/d/1eRGYyEaO0O83Yx9EhJF1Fl-5-J0Dhn3ZNEbDNnyj5Xw/edit?usp=sharing  
 ](https://docs.google.com/document/d/1eRGYyEaO0O83Yx9EhJF1Fl-5-J0Dhn3ZNEbDNnyj5Xw/edit?usp=sharing)(Falta el almacenamiento de variables)  
 (Considerar tmb upgradability)  

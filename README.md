@@ -5,7 +5,6 @@
 
 ### Website  **[here](https://spaceuy.github.io/blockchain-guidelines/)**
 
----
 
 ##### Disclaimer
 

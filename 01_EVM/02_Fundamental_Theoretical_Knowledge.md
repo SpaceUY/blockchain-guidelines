@@ -145,7 +145,7 @@ nav_order: 2
     
 ---
 
--   **Blockchain almacenamiento**
+-   **Blockchain Storage**
     
 
 	-   [Storage In Ethereum](https://drive.google.com/open?id=1uJpX04AV36ffxKn-VWPJYhYe9U1lt34_) ([Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
@@ -275,7 +275,7 @@ nav_order: 2
 
 ---
 
--   **Specific Domain (DeFI)**
+-   **Specific Domain (DeFi)**
     
 
 	-   [ERC20](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20)

@@ -2,14 +2,15 @@
 
 ## Blockchain Techbook
 
-[](https://github.com/spaceUY/react-guidelines#react-guidelines)
 
 ### Website  **[here](https://spaceuy.github.io/blockchain-guidelines/)**
 
-[](https://github.com/spaceUY/react-guidelines#website-here)
+---
 
 ##### Disclaimer
 
-[](https://github.com/spaceUY/react-guidelines#disclaimer)
+This documentation serves as a foundational reference to understanding key concepts and best practices within blockchain ecosystems.
 
-This documentation was created as a guide to align with the company's practices and is based on general scenarios encountered during development. It is not an exhaustive manual covering all React functionalities but serves as a foundational reference to understanding key concepts and best practices. For detailed information on specific features, please refer to the official documentation. If you come across any inaccuracies, please reach out to the development team.
+For detailed information on specific features or the most recent updates, please refer to the official documentation of the respective platforms. Blockchain technology is rapidly evolving, and while we strive to keep this techbook current, some content may become outdated over time.
+
+If you come across any inaccuracies, omissions, or have suggestions for improvement, please reach out to the development team. Your feedback is invaluable in helping us maintain an effective and accurate resource for everyone.

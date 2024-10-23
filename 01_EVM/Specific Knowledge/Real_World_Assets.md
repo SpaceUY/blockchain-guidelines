@@ -18,16 +18,16 @@ parent: Specific Knowledge
 
 This standard is often paired with ERC 735, which handles claims associated with these identities.
 
-  
+---
 
 ### ERC 734 - Key Manager Standard
 
-#### Purpose
+**Purpose**
 
 -   ERC 734 defines a standard for managing keys within an identity contract, such as those defined by ERC 725. It allows for the addition, removal, and management of keys associated with an identity in a secure and standardized manner.
     
 
-#### Key Features
+**Key Features**
 
 1.  Key Management:
     
@@ -52,9 +52,8 @@ This standard is often paired with ERC 735, which handles claims associated with
     
 
 -   ERC 734 allows for granular control over which keys have what permissions, enhancing the security and flexibility of identity contracts.
-    
 
-  
+---  
 
 ### ERC 735 - Claim Holder Standard
 
@@ -64,8 +63,7 @@ This standard is often paired with ERC 735, which handles claims associated with
     
 -   Status: Also in the proposal stage and complements ERC 725.
     
-
-  
+---
 
 ### ERC 3643 - Security Token Standard
 
@@ -74,7 +72,8 @@ This standard is often paired with ERC 735, which handles claims associated with
 -   Features: Provides compliance with regulatory requirements for security tokens, including KYC (Know Your Customer) and AML (Anti-Money Laundering) checks. It also supports complex issuance and transfer restrictions.
     
 -   Status: Adopted and used in various security token offerings (STOs)
-    
+
+---
 
 ### ERC 1400 - Security Token Standard
 

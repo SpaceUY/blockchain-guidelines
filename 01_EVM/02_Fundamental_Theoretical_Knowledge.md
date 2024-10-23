@@ -8,53 +8,52 @@ nav_order: 2
 # Fundamental Theoretical Knowledge
 ---
 
--   Criptografía
+-   **Cryptography**
 
-	-   Criptografía asimétrica: Propiedades (autenticidad, no repudio, no reusable)
+	-   Asymmetric cryptography: Properties (authenticity, non-repudiation, non-reusability)
     
 
 		-   [Public Key Cryptography - Computerphile](https://www.youtube.com/watch?v=GSIDS_lvRv4)
     
 
-	-   Curvas Elípticas: Operación Suma y Multiplicación, curva secp256k1
+	-   Elliptic Curves: Addition and Multiplication Operation, secp256k1 curve
     
 
 		-   [Elliptic Curve Diffie Hellman](https://www.youtube.com/watch?v=F3zzNa42-tQ)
     
 
-			-   Curvas elipticas (0:00 - 9:00)
+			-   Elliptic curves (0:00 - 9:00)
     
 			-   Diffie Hellman (9:00 - 11:55) -> How to exchange a secret
     
 
-		-   [Curvas Elipticas](https://docs.google.com/document/u/0/d/17RIfXlziCN3j5ST0eM0SsO5E-5Q2OJVqAn37TCy3A2s/edit)
+		-   [Elliptic Curves](https://docs.google.com/document/u/0/d/17RIfXlziCN3j5ST0eM0SsO5E-5Q2OJVqAn37TCy3A2s/edit)
     
 
-	-   Criptografía asimétrica sobre curvas elípticas:
+	-   Asymmetric cryptography on elliptic curves:
     
 
 		-   [https://cryptobook.nakov.com/digital-signatures/ecdsa-sign-verify-messages](https://cryptobook.nakov.com/digital-signatures/ecdsa-sign-verify-messages)
     
 
-			((r,s,v), Firma digital, Verificación de firma, Recuperación)
+			((r,s,v), Digital signature, Signature verification, Recovery)
 
 		-   [https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md)
     
 
-	-   Problema de maleabilidad de las firmas:
+	-   Signature malleability problem:
     
 
 		-   [https://www.youtube.com/shorts/RqOaaglSqlI](https://www.youtube.com/shorts/RqOaaglSqlI)
     
 
-	-   Extra: Divertirse con [https://cryptohack.org/](https://cryptohack.org/)
+	-   Extra: have fun with [Cryptohack!](https://cryptohack.org/)
     
-	-   Ejercicios en 02_fundamentals/src/cryptography
+	-   Exercises on [02_fundamentals/src/cryptography](https://github.com/SpaceUY/blockchain-techbook/tree/main/src/02-fundamentals/cryptography)
     
+---
 
-  
-
-- HD Wallets
+- **HD Wallets**
     
 
 	-   [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki), [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki)
@@ -66,39 +65,37 @@ nav_order: 2
     
 		-   [https://tara-annison.medium.com/mnemonic-seed-phrases-bip39-6b843291834c](https://tara-annison.medium.com/mnemonic-seed-phrases-bip39-6b843291834c)
     
-		-   Entender en términos generales la motivación de los estándares mencionados.
+		-   Understand in general terms the motivation for the standards mentioned.
     
 		-   Master private key and Master public key [https://learnmeabitcoin.com/technical/keys/hd-wallets/extended-keys/](https://learnmeabitcoin.com/technical/keys/hd-wallets/extended-keys/)
 
 		-   Child Key derivation [https://learnmeabitcoin.com/technical/keys/hd-wallets/extended-keys/#child-key-derivation](https://learnmeabitcoin.com/technical/keys/hd-wallets/extended-keys/#child-key-derivation)
     
 
-		-   Ejercicios en [02_fundamentals/src/hd-wallets](https://github.com/SpaceUY/blockchain-techbook/tree/main/src/02-fundamentals/hd-wallets)
+		-   Exercises on [02_fundamentals/src/hd-wallets](https://github.com/SpaceUY/blockchain-techbook/tree/main/src/02-fundamentals/hd-wallets)
+    
+---
+
+-   **EOA vs IOA**
     
 
-  
-
--   EOA vs IOA
+	-   [Introduction To Ethereum](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pages 15 to 20 [Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
     
-
-	-   [3_IntroducciÃ³n a Ethereum.pdf](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pág 15 a 20 [Autor David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
-    
-	-   https://ethereum.org/en/developers/docs/accounts/
+	-   [https://ethereum.org/en/developers/docs/accounts/](https://ethereum.org/en/developers/docs/accounts/)
     
 	-   [Ethereum Accounts Explained: Smart Contract vs Externally Owned Account (EOA)](https://www.youtube.com/watch?v=CbV3jrhj-Os&t=106s)
     
-	-   [Ejercicio Práctico](https://colab.research.google.com/drive/1E8r0wHjeixSLifFXmoc0COP1-pjYSPcd#scrollTo=WSWBi6kVp7bc)
+	-   [Practical Exercise](https://colab.research.google.com/drive/1E8r0wHjeixSLifFXmoc0COP1-pjYSPcd#scrollTo=WSWBi6kVp7bc)
+    
+---
+
+-   **Blockchain**
     
 
-  
-
--   Blockchain
+	-   Block, content, tree root (state, transactions, receipts)
     
 
-	-   Block, contenido, root de los arboles (state, transactions, receipts)
-    
-
-		-   [3_IntroducciÃ³n a Ethereum.pdf](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pág 32 a 40 [Autor David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
+		-   [Introduction To Ethereum](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pages 32 to 40 [Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
     
 		-   [https://ethereum.org/en/developers/docs/blocks/](https://ethereum.org/en/developers/docs/blocks/)
     
@@ -108,7 +105,7 @@ nav_order: 2
 	-   Transactions
     
 
-		-   [3_IntroducciÃ³n a Ethereum.pdf](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pág 27 a 31 [Autor David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit)) (Message Calls, Contract Creations)
+		-   [Introduction To Ethereum](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pages 27 to 31 [Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit)) (Message Calls, Contract Creations)
 
 		-   [https://ethereum.org/en/developers/docs/transactions/](https://ethereum.org/en/developers/docs/transactions/)
     
@@ -116,7 +113,7 @@ nav_order: 2
 	-   Gas
     
 
-		-   [3_IntroducciÃ³n a Ethereum.pdf](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pág 22 a 27 [Autor David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit)) (Gas, GasLimit, Gas Price, OOG)
+		-   [Introduction To Ethereum](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pág 22 a 27 [Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit)) (Gas, GasLimit, Gas Price, OOG)
 
 		-   [https://ethereum.org/en/developers/docs/gas/](https://ethereum.org/en/developers/docs/gas/)
     
@@ -124,78 +121,72 @@ nav_order: 2
     
 
 	-   [Blockchain Transactions Deep Dive: Análisis, Costos y más con Germán Küber](https://www.youtube.com/watch?v=FrCyT_FSdjQ)
-    
 
-		-   Ejecución de una transacción
+		-   Executing a transaction
     
-		-   Costos de gas (distintos tipos de lecturas, escrituras)
+		-   Gas costs (different types: reads, writes)
     
-		-   Refund de gas al limpiar valores en storage
+		-   Gas refund when clearing values ​​in storage
     
+---
 
-  
-
--   JSON - RPC (Eth API)
-    
+-   **JSON - RPC (Eth API)**
 
 	-   [https://ethereum.org/en/developers/docs/apis/json-rpc/](https://ethereum.org/en/developers/docs/apis/json-rpc/)
     
 	-   [https://ethereum.github.io/execution-apis/api-documentation/](https://ethereum.github.io/execution-apis/api-documentation/)
     
-	-   [https://stackoverflow.com/questions/50985798/difference-between-sendtransaction-and-sendrawtransaction-in-web3-py](https://stackoverflow.com/questions/50985798/difference-between-sendtransaction-and-sendrawtransaction-in-web3-py (Diferencia entre eth_sendTransaction y eth_sendRawTransaction)
+	-   [https://stackoverflow.com/questions/50985798/difference-between-sendtransaction-and-sendrawtransaction-in-web3-py](https://stackoverflow.com/questions/50985798/difference-between-sendtransaction-and-sendrawtransaction-in-web3-py) (Diferencia between eth_sendTransaction and eth_sendRawTransaction)
 
-	-   Ejercicio
-    
-
-		-   [Playground](https://ethereum-json-rpc.com/). Jugar con algunos de los siguientes:  
+	-   Exercise
+  
+		-   [Playground](https://ethereum-json-rpc.com/). Play around with some of the following:  
     eth_chainId, eth_blockNumber, eth_gasPrice, eth_maxPriorityFeePerGas, eth_getBalance, eth_getCode, eth_call, eth_estimateGas, eth_getBlockByNumber, eth_getBlockByHash, eth_getTransactionByHash, eth_getTransactionReceipt.
     
+---
 
--   Blockchain almacenamiento
+-   **Blockchain almacenamiento**
     
 
-	-   [4_Almacenamiento en Ethereum.pdf](https://drive.google.com/open?id=1uJpX04AV36ffxKn-VWPJYhYe9U1lt34_) ([Autor David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
+	-   [Storage In Ethereum](https://drive.google.com/open?id=1uJpX04AV36ffxKn-VWPJYhYe9U1lt34_) ([Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
     
-	-   Extra: [Visualizacion Merkle Trees](https://blockchain-academy.hs-mittweida.de/merkle-tree/)
+	-   Extra: [Merkle Trees Visualization](https://blockchain-academy.hs-mittweida.de/merkle-tree/)
     
-	-   Ejercicio Práctico
+	-   Practical Exercise
     
+---
 
-  
 
--   EVM (Ethereum Virtual Machine)
-    
-
-	-   [8_EVM - Ethereum Virtual Machine.pdf](https://drive.google.com/open?id=1dmQvvK8MGQdPwgtDX7SxExRcNnKa-ygU) ([Autor David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
-    
-	-   [EVM (Primera parte) | Taller Avanzado en Vivo con Germán Küber](https://www.youtube.com/watch?v=hT6IxwGr8hs) (Smart contract bytecode, opcods, EVM)
-
-	-   Ejercicio Práctico
+-   **EVM (Ethereum Virtual Machine)**
     
 
-		-   Ver como es la ejecución de un código de solidity usando [https://www.evm.codes/playground](https://www.evm.codes/playground)
+	-   [8_EVM - Ethereum Virtual Machine.pdf](https://drive.google.com/open?id=1dmQvvK8MGQdPwgtDX7SxExRcNnKa-ygU) ([Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
+    
+	-   [EVM (First Part) | Live advanced workshop with Germán Küber](https://www.youtube.com/watch?v=hT6IxwGr8hs) (Smart contract bytecode, opcods, EVM)
+
+	-   Practical Exercise
     
 
-	-   Extra:  
-    [https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015](https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015) (Es un poco viejo este articulo, pesado pero si a alguien le interesa complementar lo aprendido con esto que esta aquí, esta aun vigente)
+		-   See how a solidity code is executed using [https://www.evm.codes/playground](https://www.evm.codes/playground)
     
 
-  
+	-   Extra: [https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015](https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015)
+    
+---
 
--   Nodos y clientes
+-   **Nodes and Clients**
     
 
 	-   [https://ethereum.org/en/developers/docs/nodes-and-clients/node-architecture/](https://ethereum.org/en/developers/docs/nodes-and-clients/node-architecture/) (Ethereum consensus and execution client)
 
 	-   [https://ethereum.org/en/developers/docs/nodes-and-clients/light-clients/](https://ethereum.org/en/developers/docs/nodes-and-clients/light-clients/) (Light nodes)
 
-  
+---  
 
--   Algoritmos de consenso
+-   **Consensus Algorithms**
     
 
-	-   Problema de los generales bizantinos
-    
+	-   The Byzantine Generals' Problem
 
 		-   [Distributed Systems 2.2: The Byzantine generals problem](https://www.youtube.com/watch?v=LoGx_ldRBU0)
     
@@ -204,7 +195,7 @@ nav_order: 2
 	-   [https://ethereum.org/en/developers/docs/consensus-mechanisms/](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
     
 
-		-   [Understanding Blockchain Consensus Mechanisms](https://www.youtube.com/watch?v=ojxfbN78WFQ)
+    -   [Understanding Blockchain Consensus Mechanisms](https://www.youtube.com/watch?v=ojxfbN78WFQ)
     
 
 	-   PoW
@@ -219,100 +210,87 @@ nav_order: 2
 	-   PoS
     
 
-		-   [QUE ES EL STAKING Y PROOF OF STAKE??! EXPLICACION BASICA!!](https://www.youtube.com/watch?v=bQYExyRc14M) (No es el mejor video, las mejores explicaciones, PERO el contenido es el el apropiado)
+		-   [What is staking and proof of stake? Basic explanation](https://www.youtube.com/watch?v=bQYExyRc14M)
 
-	-   PoS en Ethereum
-    
+	-   PoS in Ethereum
 
-		-   [Future-block MEV in Proof of Stake by Torgin Mackinga | Devcon Bogotá](https://www.youtube.com/watch?v=rnR7puADz-o)
+		-   [Future-block MEV in Proof of Stake by Torgin Mackinga - Devcon Bogotá](https://www.youtube.com/watch?v=rnR7puADz-o)
     
 		-   [https://ethereum.org/en/developers/docs/consensus-mechanisms/pos](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos)
     
 
-			-   [https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#transaction-execution-ethereum-pos](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#transaction-execution-ethereum-pos)
+		-   [https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#transaction-execution-ethereum-pos](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#transaction-execution-ethereum-pos)
     
-			-   [https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/block-proposal/](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/block-proposal/)
+		-   [https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/block-proposal/](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/block-proposal/)
     
-			-   [https://ethereum.org/en/developers/docs/networking-layer/#connecting-clients](https://ethereum.org/en/developers/docs/networking-layer/#connecting-clients)
-    
-
-  
+		-   [https://ethereum.org/en/developers/docs/networking-layer/#connecting-clients](https://ethereum.org/en/developers/docs/networking-layer/#connecting-clients)
 
 		-   Extra:
     
-
-			-   [Updates on Proposer-Builder Separation by Barnabé Monnot | Devcon Bogotá](https://www.youtube.com/watch?v=sQQ2UYB3qOI)
+			-   [Updates on Proposer-Builder Separation by Barnabé Monnot - Devcon Bogotá](https://www.youtube.com/watch?v=sQQ2UYB3qOI)
     
-			-   [¡Hack de $25.000.000 USD MEV Boost Explicado en Vivo!](https://www.youtube.com/watch?v=Mlj2PFTDSGI) (Ataque MEV pero que repasa todos los conceptos de cómo se arman los bloques, searchers, etc)
+			-   [$25,000,000 USD MEV Boost Hack Explained Live!](https://www.youtube.com/watch?v=Mlj2PFTDSGI)
 
 	-   PoA
     
 
 		-   [https://ethereum.org/en/developers/docs/consensus-mechanisms/poa/](https://ethereum.org/en/developers/docs/consensus-mechanisms/poa/)
     
+---
 
-  
-
--   Meta txs
+-   **Meta txs**
     
-
 	-   Forwarder, EIP712, ERC2771 (Context y Forwarder)
     
 	-   Reply attack protection (Nonce nativo vs “Nonce artificial”)
     
+---
 
-  
-  
+-   **Upgradeability Patterns**
 
--   Patrones de Upgradeability
+	-   Conceptually and its benefits: Transparent, UUPs, Beacon, Diamond, [Proxies, Beacons & Diamond Pattern - EVM Expeditions #02 - byterocket](https://www.youtube.com/watch?v=iXLoSVcVhUg)
 
-	-   Conceptualmente y sus beneficios: Transparent, UUPs, Beacon, Diamond, [Proxies, Beacons & Diamond Pattern - EVM Expeditions #02 - byterocket](https://www.youtube.com/watch?v=iXLoSVcVhUg)
+	-   Practical Exercise:
 
-	-   Ejercicio Práctico:
-
-		-   (Mirando eth scan, ir a un contrato upgradeable, identificar cual es la implementación, cual es el proxy, como invocar un read, write..)
+		-   Looking at [Etherscan](https://etherscan.io), go to an upgradeable contract, identify which is the implementation, which is the proxy, how to invoke a read, write..
     
+--- 
 
-  
 
--   Dominio especifico (NFTs)
+-   **Specific Domain (NFTs)**
     
 
 	-   NFTs ([ERC721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721), [ERC1155](https://docs.openzeppelin.com/contracts/3.x/erc1155)).
     
 	-   NFT metadata standard
-    
 
 		-   [What is IPFS and How Does it Work?](https://www.youtube.com/watch?v=z2judsbo-5E)
     
 		-   [https://docs.opensea.io/docs/metadata-standards](https://docs.opensea.io/docs/metadata-standards)
     
 
-	-   Ejercicio Práctico
+	-   Practical Exercise
     
+		-   Using [Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null) deploy [ERC721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol) and [ERC1155](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC1155/ERC1155.sol). Metadata can be uploaded to IPFS by watching the following video  [05. Upload your art and metadata to IPFS with Pinata.cloud](https://www.youtube.com/watch?v=mSUpcZA5o0). Mint NFTs and use the methods balanceOf, approve, transferFrom etc.. to have as complete an understanding as possible.
 
-		-   Usando [Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null) deployar [ERC721](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol) y [ERC1155](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC1155/ERC1155.sol). La metadata puede subirse a IPFS mirando el siguiente video  [05. Upload your art and metadata to IPFS with Pinata.cloud](https://www.youtube.com/watch?v=mSUpcZA5o0). Mintear NFTs y utilizar los metodos balanceOf, approve, transferFrom etc.. para tener un entendimiento lo más completo posible.
+---
 
-  
-
--   Dominio especifico (DeFI)
+-   **Specific Domain (DeFI)**
     
 
 	-   [ERC20](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20)
     
 	-   Liquidity Pool & AMM
     
-
 		-   [What is an Automated Market Maker? (Liquidity Pool Algorithm)](https://www.youtube.com/watch?v=1PbZMudPP5E)
     
-		-   [How do LIQUIDITY POOLS work? (Uniswap, Curve, Balancer) | DEFI Explained](https://www.youtube.com/watch?v=cizLhxSKrAc)
+		-   [How do LIQUIDITY POOLS work? (Uniswap, Curve, Balancer) - DEFI Explained](https://www.youtube.com/watch?v=cizLhxSKrAc)
     
 		-   [UNISWAP V3 - New Era Of AMMs? Architecture Explained](https://www.youtube.com/watch?v=Ehm-OYBmlPM)
     
 		-   Extra:
-    
 
-			-   [An Overview of AMM Mechanisms by Matt Deible | Devcon Bogotá](https://www.youtube.com/watch?v=KxuyHfmLHP0)
+			-   [An Overview of AMM Mechanisms by Matt Deible - Devcon Bogotá](https://www.youtube.com/watch?v=KxuyHfmLHP0)
     
 			-   [AAVE - The Road To $3 Billion - DEFI Explained](https://www.youtube.com/watch?v=WwE3lUq51gQ) (Lending protocol)
     
@@ -321,21 +299,19 @@ nav_order: 2
 			-   [https://medium.com/@buildwithbhavya/the-math-behind-pump-fun-b58fdb30ed77#:~:text=At%20its%20core%20lies%20a,skipping%20presales%20or%20team%20allocations](https://medium.com/@buildwithbhavya/the-math-behind-pump-fun-b58fdb30ed77#:~:text=At%20its%20core%20lies%20a,skipping%20presales%20or%20team%20allocations)
     
 
-	-   Ejercicio Práctico
-    
+	-   Practical Exercise
 
-		-   Usando [Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null) deployar [ERC20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol). Mintear tokens, utilizar los metodos balanceOf, approve, transferFrom etc.. para tener un entendimiento lo más completo posible.
+		-   Using [Remix](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null) deploy [ERC20](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol). Mint tokens and use the methods balanceOf, approve, transferFrom etc.. to have as complete an understanding as possible.
 
 		-   Extra:
-    
 
-			-   (Crear un pool de liquidez en panckakeswap?)
+			-   (Create a Liquidity Pool on Pancakeswap?)
     
-			-   (Interactuar con AAVE)
-   
+			-   (Interact with AAVE?)
 
--   Ataques conocidos
-    
+---
+
+-   **Known Attacks**
 
 	-   Reentrancy (CEI Pattern)
     
@@ -343,12 +319,10 @@ nav_order: 2
     
 	-   Extra:
     
-
-		-   Ejercitar los siguientes y anteriores con [https://ethernaut.openzeppelin.com/](https://ethernaut.openzeppelin.com/)
+		-   Practice the following and previous ones with [https://ethernaut.openzeppelin.com/](https://ethernaut.openzeppelin.com/)
     
-		-   Entender estos otros:
+		-   Understand these:
     
-
 			-   All storage variables can be accessed (independent of visibility)
     
 			-   Replay Attack
@@ -361,8 +335,9 @@ nav_order: 2
     
 			-   Precision Loss
     
+---
 
-### Referencias de utilidad:  
+### Useful references:  
   
 
 [https://ethereum.org/en/developers/docs/intro-to-ethereum/](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
@@ -379,8 +354,7 @@ nav_order: 2
 
 [https://www.youtube.com/watch?v=GSIDS_lvRv4&pp=ygURY29tcHV0ZXJwaGlsZSBwa2M%3D](https://www.youtube.com/watch?v=GSIDS_lvRv4&pp=ygURY29tcHV0ZXJwaGlsZSBwa2M%3D)
 
-  
-  
+---
 
 ### Old:  
 

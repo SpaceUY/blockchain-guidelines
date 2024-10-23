@@ -7,9 +7,9 @@ parent: Specific Knowledge
 # Elliptic Curves
 ---
 
-## Videos:
+**Videos:**
 
-[Píldora formativa Thoth 49: ¿Por qué pueden utilizarse las curvas elípticas para cifrar?](https://www.youtube.com/watch?v=vi2wvAQsy-A)
+[Thoth Training Pill 49: Why can elliptic curves be used for encryption?](https://www.youtube.com/watch?v=vi2wvAQsy-A)
 
 [Math Behind Bitcoin and Elliptic Curve Cryptography (Explained Simply)](https://www.youtube.com/watch?v=muIv8I6v1aE)
 
@@ -17,9 +17,10 @@ parent: Specific Knowledge
 
 [https://medium.com/@blairlmarshall/how-does-ecdsa-work-in-bitcoin-7819d201a3ec](https://medium.com/@blairlmarshall/how-does-ecdsa-work-in-bitcoin-7819d201a3ec)
 
-  
+---
 
-## Otros links complementarios:  
+**Complementary Links:**
+
 [https://hackernoon.com/a-closer-look-at-ethereum-signatures-5784c14abecc](https://hackernoon.com/a-closer-look-at-ethereum-signatures-5784c14abecc)
 
 [https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md?ref=hackernoon.com](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md?ref=hackernoon.com)
@@ -28,29 +29,24 @@ parent: Specific Knowledge
 
 [https://hal.archives-ouvertes.fr/hal-01914807/document](https://hal.archives-ouvertes.fr/hal-01914807/document)
 
-  
-  
+---
 
 ###  ECDSA
 
-  
 
 ECDSA (‘Elliptical Curve Digital Signature Algorithm’) is the cryptography behind private and public keys used in Bitcoin. It consists of combining the math behind [finite fields](https://en.wikipedia.org/wiki/Finite_field) and [elliptic curves](https://en.wikipedia.org/wiki/Elliptic_curve) to create one way equations, meaning you can choose your private key (some number) and easily calculate your public key (some other number). However, I can’t take my public key (or anybody else’s for that matter) and easily calculate their private key.
 
-  
-  
+---  
 
 ### Finite Fields
 
-  
 
 A finite field is exactly like it sounds, a finite set of numbers. The real numbers are an infinite set of numbers, but the set (3, 97, 205, 1,678, 17) is a finite set of numbers. A more interesting and useful set of numbers are the set of integers modulo p, where p is a prime number.
 
-  
+---
 
 ### Elliptic Curve
 
-  
 
 Elliptic curves are the set of points described by the equation:
 
@@ -78,6 +74,7 @@ Elliptic curves have some of their own specific group laws.
     
 3.  Addition is defined as: given three aligned, non-zero points, P, Q, and R you have P + Q + R = 0. The order does not matter for these three points, so P + (Q+R) = 0, (P+Q) + R = 0, (P+R) + Q = 0, etc. This allows us to prove elliptic curves are both commutative, and associative.
 
+---
 
 ### Scalar Multiplication and Order  
 
@@ -131,6 +128,8 @@ Bringing this all together, our example defines the following:
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXedNx8t5wug56sDUOANGncAJoVyd6Pe4GbztK3j0moOIiI_st0TP9SK6uQB1aCFbUcEwgvT2zDHlFhyVKNXZhY7ZYA7iXp7CyJ4QiQBb_rZXO7v-Tbezh2B5dzDElw7B7q5wnSyZqqIPcwGWkG1jW87I4-n?key=FHq0ADnyQcpDDnuXALIy-A)
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcW51FW0ujrP2U53FVfQyPKzngxjt3Kv_oi36WDxDT5Yk7V9UuQWfDf8WZ16p8NBzUxPUc06x9H6Pv1JX-0eFKSsZuH678IaPmkZTLcykuDWxE0_wByD607BP34Ebs6TGRy6lQGnwCX0W2u3JoH2Y_bS1ya?key=FHq0ADnyQcpDDnuXALIy-A)
+
+---
 
 ### ECDSA and Bitcoin
 

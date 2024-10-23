@@ -6,6 +6,9 @@ nav_order: 2
 
 # EVM Guide
 
+[Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
+
+---
 The EVM Guide is divided into the following sections:
 
 ## 01-Basic initial knowledge

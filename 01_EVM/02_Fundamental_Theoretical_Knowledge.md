@@ -91,15 +91,16 @@ nav_order: 2
 
 -   **Blockchain**
     
+  
+    - [Blockchain Demo by Anders Brownworth](https://andersbrownworth.com/blockchain/)
 
-	-   Block, content, tree root (state, transactions, receipts)
-    
+    - [Blockchain Demo Part 2 by Anders Brownworth](https://andersbrownworth.com/blockchain/public-private-keys/)
+  
+    - Block, content, tree root (state, transactions, receipts)
+  
+    - [https://ethereum.org/en/developers/docs/blocks/](https://ethereum.org/en/developers/docs/blocks/)
 
-		-   [Introduction To Ethereum](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pages 32 to 40 [Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
-    
-		-   [https://ethereum.org/en/developers/docs/blocks/](https://ethereum.org/en/developers/docs/blocks/)
-    
-		-   [Simplified interactive view of a blockchain](https://andersbrownworth.com/blockchain/hash)
+    - [Introduction To Ethereum](https://drive.google.com/open?id=1IdSVNGDu1ielZmN_2Tda5TaTUCNRhLoJ) (pages 32 to 40 [Author David Gimenez](https://docs.google.com/document/d/1lvfL4r0Awl2qXP5C1TbKo4cMk1fXxEL3vOIxWvZJt-w/edit))
     
 
 	-   Transactions
@@ -109,6 +110,14 @@ nav_order: 2
 
 		-   [https://ethereum.org/en/developers/docs/transactions/](https://ethereum.org/en/developers/docs/transactions/)
     
+    - Play around with
+      - [Hashes](https://andersbrownworth.com/blockchain/hash)
+      - [Blocks](https://andersbrownworth.com/blockchain/block)
+      - [Blockchain](https://andersbrownworth.com/blockchain/blockchain)
+      - [Distributed Blockchain](https://andersbrownworth.com/blockchain/distributed)
+      - [Transactions](https://andersbrownworth.com/blockchain/tokens)
+
+
 
 	-   Gas
     
@@ -318,22 +327,19 @@ nav_order: 2
 	-   Frontrunning (Commit-Reveal Scheme)
     
 	-   Extra:
+    	-   CTFs: practice the following and previous ones with...
+        	-   [Ethernaut](https://ethernaut.openzeppelin.com/)
+        	-   [Damn Vulnerable Defi](https://www.damnvulnerabledefi.xyz/)
+        	-   [Onlypwner](https://onlypwner.xyz/)
     
-		-   Practice the following and previous ones with [https://ethernaut.openzeppelin.com/](https://ethernaut.openzeppelin.com/)
-    
-		-   Understand these:
-    
-			-   All storage variables can be accessed (independent of visibility)
-    
-			-   Replay Attack
-    
-			-   Reorder Attack
-    
-			-   Delay Attack
-    
-			-   Domain Change
-    
-			-   Precision Loss
+    	-   Understand these:
+        	-   All storage variables can be accessed (independent of visibility)
+        	-   Replay Attack
+        	-   Reorder Attack
+        	-   Delay Attack
+        	-   Domain Change
+        	-   Precision Loss
+	-   [Reproduce DeFi hack incidents using Foundry - 538 incidents included ](https://github.com/SunWeb3Sec/DeFiHackLabs)
     
 ---
 

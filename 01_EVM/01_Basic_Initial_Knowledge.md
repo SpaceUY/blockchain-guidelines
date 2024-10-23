@@ -72,3 +72,4 @@ nav_order: 1
 **Books**  
 
 - Mastering Blockchain - O’Reilly
+- [Mastering Ethereum - Andreas M. Antonopoulos & Gavin Wood](https://github.com/ethereumbook/ethereumbook)

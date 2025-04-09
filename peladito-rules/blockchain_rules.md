@@ -26,7 +26,7 @@ A clean structure helps maintain a scalable codebase:
   - **`foundry.toml`**: Foundry configuration file.
 
 ## Contracts Layout
-Always keep in mind the official (Solidity Style Guide)[https://docs.soliditylang.org/en/latest/style-guide.html]
+Always keep in mind the official
 
 ### File Layout:
 1. version

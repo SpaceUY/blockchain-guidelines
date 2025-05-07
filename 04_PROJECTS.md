@@ -1,6 +1,6 @@
 ---
 title: Blockchain Projects
-layout: blockchain projects
+layout: home
 nav_order: 4
 ---
 

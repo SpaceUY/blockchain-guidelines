@@ -6,15 +6,92 @@ nav_order: 4
 
 ## Proyectos
 
-- Blockus
-- Acme
-- W3E
-- Blockbound
-- Rarible
-- Phenom Poker
-- Cryptoart
-- Lancelot
-- Mostaza
+| Project      | Blockchains          | Devs                          | Repo |
+| ------------ | -------------------- | ----------------------------- | ---- |
+| Ape Bonds    | Solana               | Diego Garcia                  |      |
+| Mostaza      | EVM                  | Tomi                          |      |
+| Fight FI     | Flow, Aptos          | Diego Garcia, Santi Grangetto |      |
+| Rarible      | EVM, Solana          | Gonza Bustos                  |      |
+| Safe Fun     | Solana               | Rocko                         |      |
+| Penumbra     | Cosmos like          | Alexis                        |      |
+| CryptoArt    | EVM                  | Jona                          |      |
+| Blockus      | EVM, Sui             | Alexis, Rocko                 |      |
+| Acme         | Evm, Solana          | Diego Garcia, Rocko           |      |
+| W3E          | Evm                  | Gonza Ota                     |      |
+| Phenom Poker | Evm                  | Juanma, Agus Chiarotto        |      |
+| Blockbound   | Evm, Solana, Bitcoin | Elina, Juanma                 |      |
+| Lancelot     | Evm, Solana          | Facu Panizza                  |      |
+
+---
+
+## Ape Bonds
+
+## Mostaza
+
+**Descripción**  
+Fintech colombiana para servicios financieros Web3. MVP con:
+
+- Billetera USDT fondeable por transferencia o tarjeta
+- Conversión COP ↔ USDT
+- Tarjeta virtual
+- Inversión en USDM (4–5% APY)
+- Panel de administración
+
+**Tech Stack**  
+NextJS, NestJS, React Native, MongoDB, Solidity
+
+**Chains**  
+Polygon
+
+**Repositorio**  
+Bitbucket (Space)
+
+**Devs**  
+Pablo Castaño, Carlos Garcia, Santiago Grangetto, Samuel Sosa, Florencia Pereira, Tomas Freire
+
+**Desafíos técnicos**
+
+- Integración real-time entre tarjeta, backend, Binance y contratos
+- Conversión real-time entre COP y USDT con mecanismo de fijación de cambio
+
+## Fight FI
+
+## Rarible
+
+**Devs**  
+Gonza
+
+---
+
+## Safe Fun
+
+---
+
+## Cryptoart
+
+### Updated at: [28/08/2024]
+
+**Descripción**  
+Galería de NFTs con minteo, trading y burning. Los holders pueden adquirir arte físico vía Shopify. Contrato upgradeable, tokens ERC-721.
+
+**Tech Stack**  
+ReactTS Vite, NestJS, Postgres, Shopify app-blocks, Solidity
+
+**Chains**  
+Base
+
+**Repositorio**  
+Bitbucket (Space)
+
+**Devs**  
+Jona, Facu
+
+**Desafíos técnicos**
+
+- Tracking de eventos en tiempo real (Alchemy)
+- Multi-metadata con updates y eventos
+- Minteo con firma centralizada (“vouchers”)
+- User Stories en chain logs
 
 ---
 
@@ -86,40 +163,6 @@ Gonza
 
 ---
 
-## Blockbound
-
-**Descripción**  
-Plataforma de contabilidad para cripto y fiat, útil para declaraciones fiscales en EE.UU. Trackea ingresos y egresos entre múltiples chains y bancos.
-
-**Tech Stack**  
-React, Node, NestJS, Serverless Framework, AWS Lambda, Step Functions
-
-**Devs**  
-Eli, Juanma
-
-**APIs utilizadas**
-
-- Ethereum: Etherscan API
-- Solana: Solscan API
-- Bitcoin y otros: Blockchair
-- Exchanges: ccxt
-
-**Desafíos técnicos**
-
-- Ingesta y procesamiento de millones de transacciones
-- Unificación de formatos de datos
-- Manejo de datos incompletos o inconsistentes
-- Procesos de ingestión de largo plazo sin congestionar backend
-
----
-
-## Rarible
-
-**Devs**  
-Gonza
-
----
-
 ## Phenom Poker
 
 **Descripción**  
@@ -150,31 +193,30 @@ Agustín Chiarotto, David Cervi, Elina Garcia, Juan Manuel Pereira, Carlos Garci
 
 ---
 
-## Cryptoart
-
-### Updated at: [28/08/2024]
+## Blockbound
 
 **Descripción**  
-Galería de NFTs con minteo, trading y burning. Los holders pueden adquirir arte físico vía Shopify. Contrato upgradeable, tokens ERC-721.
+Plataforma de contabilidad para cripto y fiat, útil para declaraciones fiscales en EE.UU. Trackea ingresos y egresos entre múltiples chains y bancos.
 
 **Tech Stack**  
-ReactTS Vite, NestJS, Postgres, Shopify app-blocks, Solidity
-
-**Chains**  
-Base
-
-**Repositorio**  
-Bitbucket (Space)
+React, Node, NestJS, Serverless Framework, AWS Lambda, Step Functions
 
 **Devs**  
-Jona, Facu
+Eli, Juanma
+
+**APIs utilizadas**
+
+- Ethereum: Etherscan API
+- Solana: Solscan API
+- Bitcoin y otros: Blockchair
+- Exchanges: ccxt
 
 **Desafíos técnicos**
 
-- Tracking de eventos en tiempo real (Alchemy)
-- Multi-metadata con updates y eventos
-- Minteo con firma centralizada (“vouchers”)
-- User Stories en chain logs
+- Ingesta y procesamiento de millones de transacciones
+- Unificación de formatos de datos
+- Manejo de datos incompletos o inconsistentes
+- Procesos de ingestión de largo plazo sin congestionar backend
 
 ---
 
@@ -185,30 +227,6 @@ Facu Panizza
 
 ---
 
-## Mostaza
+## Ape Bonds
 
-**Descripción**  
-Fintech colombiana para servicios financieros Web3. MVP con:
-
-- Billetera USDT fondeable por transferencia o tarjeta
-- Conversión COP ↔ USDT
-- Tarjeta virtual
-- Inversión en USDM (4–5% APY)
-- Panel de administración
-
-**Tech Stack**  
-NextJS, NestJS, React Native, MongoDB, Solidity
-
-**Chains**  
-Polygon
-
-**Repositorio**  
-Bitbucket (Space)
-
-**Devs**  
-Pablo Castaño, Carlos Garcia, Santiago Grangetto, Samuel Sosa, Florencia Pereira, Tomas Freire
-
-**Desafíos técnicos**
-
-- Integración real-time entre tarjeta, backend, Binance y contratos
-- Conversión real-time entre COP y USDT con mecanismo de fijación de cambio
+---

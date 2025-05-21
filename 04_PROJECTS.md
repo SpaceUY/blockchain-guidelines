@@ -6,27 +6,94 @@ nav_order: 4
 
 ## Proyectos
 
-| Project      | Blockchains          | Devs                          | Repo |
-| ------------ | -------------------- | ----------------------------- | ---- |
-| Ape Bonds    | Solana               | Diego Garcia                  |      |
-| Mostaza      | EVM                  | Tomi                          |      |
-| Fight FI     | Flow, Aptos          | Diego Garcia, Santi Grangetto |      |
-| Rarible      | EVM, Solana          | Gonza Bustos                  |      |
-| Safe Fun     | Solana               | Rocko                         |      |
-| Penumbra     | Cosmos like          | Alexis                        |      |
-| CryptoArt    | EVM                  | Jona                          |      |
-| Blockus      | EVM, Sui             | Alexis, Rocko                 |      |
-| Acme         | Evm, Solana          | Diego Garcia, Rocko           |      |
-| W3E          | Evm                  | Gonza Ota                     |      |
-| Phenom Poker | Evm                  | Juanma, Agus Chiarotto        |      |
-| Blockbound   | Evm, Solana, Bitcoin | Elina, Juanma                 |      |
-| Lancelot     | Evm, Solana          | Facu Panizza                  |      |
+| Project      | Blockchains          | Devs                               | Repo | Updated At |
+| ------------ | -------------------- | ---------------------------------- | ---- | ---------- |
+| Ape Bonds    | Solana               | Diego Garcia                       |      |            |
+| Mostaza      | EVM                  | Tomi                               |      |            |
+| Fight FI     | Flow, Aptos          | Diego Garcia, Santi Grangetto      |      |            |
+| Rarible      | EVM, Solana          | Gonza Bustos                       |      |            |
+| Duel         | Evm-Base             | Tomas Freire, Gonza Bustos, Facu P |      | 21/05/2025 |
+| Safe Fun     | Solana               | Rocko                              |      | 21/05/2025 |
+| Penumbra     | Cosmos like          | Alexis                             |      | 21/05/2025 |
+| CryptoArt    | EVM                  | Jona                               |      |            |
+| Blockus      | EVM, Sui             | Alexis, Rocko                      |      |            |
+| Acme         | Evm, Solana          | Diego Garcia, Rocko                |      |            |
+| W3E          | Evm                  | Gonza Ota                          |      |            |
+| Phenom Poker | Evm                  | Juanma, Agus Chiarotto             |      |            |
+| Blockbound   | Evm, Solana, Bitcoin | Elina, Juanma                      |      |            |
+| Lancelot     | Evm, Solana          | Facu Panizza                       |      |            |
 
 ---
+
+# Penumbra
+
+### Updated at: [21/05/2025]
+
+**Descripción**
+Blockchain del ecosistema Cosmos que busca hacer un enhance en la privacidad al interactuar con servicios comunes de DeFi (Staking, Swaping, DEX). Esto se logra agregando capas de abstraccion de view/write keys, public commitments y private notes en conjunto con ZKproofs.
+
+## TokenFactory en Penumbra Core
+
+### Updated at: [21/05/2025]
+
+**Descripción**
+
+Es donde la magia ocurre, componentes para cada servicio (DEX, LP, Auctions, etc) en una app desde 0 en Rust usando Protobuf para comunicacion con servicios externos y cnidarium.
+Se inició el desarrollo del token factory, siguiendo el [blog](https://forum.penumbra.zone/t/token-factory-on-penumbra/127).
+
+**Links**
+
+https://protocol.penumbra.zone/main/penumbra.html
+https://guide.penumbra.zone/
+https://github.com/penumbra-zone/penumbra o https://github.com/AWolfsdorf/penumbra/tree/space/awolfsdorf/token_factory
+
+**Tech Stack**  
+Rust
+
+**Chains**  
+Penumbra (Cosmos Ecosystem)
+
+**Repositorio**  
+Github, see links
+
+**Devs**  
+Alexis Wolfsdorf, Tomas Freire
+
+**Desafíos técnicos**
+
+- Comprensión del funcionamiento general del protocolo. HARD
+- Entendimiento de Zk proofs y su uso en sistemas de privacidad.
+
+## Tokenomics Dashboard
+
+### Updated at: [21/05/2025]
+
+**Descripción**
+
+Dashboard donde se busca mostrar la importancia y comportamiento de un token en especifico, en este caso UM$. Se muestran graficos de movimiento de precio, inflacion, market cap, etc; para mostrar transparencia ante los posibles cliente/usuarios.
+
+**Tech Stack**  
+Nextjs
+
+**Chains**  
+Penumbra (Cosmos Ecosystem)
+
+**Repositorio**  
+https://bitbucket.org/spaceuy/tokenomics-dashboard/src/main/
+
+**Devs**  
+Alexis Wolfsdorf
+
+**Desafíos técnicos**
+
+- Comprensión del funcionamiento general del protocolo. HARD
+- Entendimiento de Zk proofs y su uso en sistemas de privacidad.
 
 ## Ape Bonds
 
 ## Mostaza
+
+### Updated at: [21/05/2025]
 
 **Descripción**  
 Fintech colombiana para servicios financieros Web3. MVP con:
@@ -56,14 +123,73 @@ Pablo Castaño, Carlos Garcia, Santiago Grangetto, Samuel Sosa, Florencia Pereir
 
 ## Fight FI
 
+## Duel
+
+### Updated at: [21/5/2025]
+
+**Descripción**  
+Aplicación de apuestas entre dos participantes usando smart contracts
+
+**Tech Stack**  
+Solidity, Foundry, Nextjs
+
+**Chains**
+Base
+
+**Repositorio**
+Github (En Garde Labs)
+
+**Devs**
+Tomás Freire
+
+**Desafíos técnicos**
+
+- Realizar la dinámica de apuestas de la manera más eficiente posible en términos de gas y simpleza para el usuario sin resignar funcionalidades.
+
 ## Rarible
 
-**Devs**  
+**Devs**
 Gonza
 
 ---
 
 ## Safe Fun
+
+### Updated at: [21/05/2025]
+
+**Descripción**  
+Design/develop a Solana program with Rust using Anchor
+
+Using Rust macros and polymorphism to enhance code reuse
+
+The program supports:
+
+- The creation of tokens along with their corresponding presales
+- Staged, Bonding Curve and Fair Bonding Curve presale types supported
+- Automate Market Maker (AMM) & Liquidity pool creation using OpenBook-Dex & Raydium programs
+- Forked Raydium Contract Instructions https://github.com/RoSpaceDev/raydium-contract-instructions from https://github.com/raydium-io/raydium-contract-instructions, to use amm-anchor with latest dependencies.
+
+Everything was designed in a way it does not require central entities to trigger the market and liquidity pool creation.
+
+**Tech Stack**  
+Rust, Anchor, TypeScript, Metaplex
+
+**Chains**  
+Solana
+
+**Repositorio**  
+Github (Space)
+
+**Devs**  
+Rocko, Santi Grangetto, Tomi
+
+**Desafíos técnicos**
+
+- Polimorfismo en rust
+- Uso de macros en rust
+- Algoritmos de bonding curve
+- Uso de Raydium y OpenBook-Dex
+- Pago de fees, se usó WSOL en vez de sol
 
 ---
 
@@ -117,6 +243,7 @@ Rocko, Alexis
 - Create2 para creación de contratos
 - ERC1155 factory con Beacon Pattern
 - Minteo a través de autoridad centralizada en backend que firma “vouchers”
+- Algoritmo para hacer derivacions deterministicas sobre una master key basados en un timestamp
 
 **Presentación en meet up**  
 Link a canvas
@@ -159,7 +286,7 @@ Rocko, Gonza, Diego Garcia, Andre Neyra
 ## W3E
 
 **Devs**  
-Gonza
+Gonza O
 
 ---
 
@@ -224,9 +351,5 @@ Eli, Juanma
 
 **Devs**  
 Facu Panizza
-
----
-
-## Ape Bonds
 
 ---

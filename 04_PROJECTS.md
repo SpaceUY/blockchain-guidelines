@@ -6,22 +6,22 @@ nav_order: 4
 
 ## Proyectos
 
-| Project      | Blockchains          | Devs                               | Repo | Updated At |
-| ------------ | -------------------- | ---------------------------------- | ---- | ---------- |
-| Ape Bonds    | Solana               | Diego Garcia                       |      |            |
-| Mostaza      | EVM                  | Tomi                               |      |            |
-| Fight FI     | Flow, Aptos          | Diego Garcia, Santi Grangetto      |      |            |
-| Rarible      | EVM, Solana          | Gonza Bustos                       |      |            |
-| Duel         | Evm-Base             | Tomas Freire, Gonza Bustos, Facu P |      | 21/05/2025 |
-| Safe Fun     | Solana               | Rocko                              |      | 21/05/2025 |
-| Penumbra     | Cosmos like          | Alexis                             |      | 21/05/2025 |
-| CryptoArt    | EVM                  | Jona                               |      |            |
-| Blockus      | EVM, Sui             | Alexis, Rocko                      |      |            |
-| Acme         | Evm, Solana          | Diego Garcia, Rocko                |      |            |
-| W3E          | Evm                  | Gonza Ota                          |      |            |
-| Phenom Poker | Evm                  | Juanma, Agus Chiarotto             |      |            |
-| Blockbound   | Evm, Solana, Bitcoin | Elina, Juanma                      |      |            |
-| Lancelot     | Evm, Solana          | Facu Panizza                       |      |            |
+| Project                       | Blockchains          | Devs                               | Updated At            |
+| ----------------------------- | -------------------- | ---------------------------------- | --------------------- |
+| [Ape Bonds](#ape-bonds)       | Solana               | Diego Garcia                       |                       |
+| [Mostaza](#mostaza)           | EVM                  | Tomi                               |                       |
+| [Fight FI](#fight-fi)         | Flow, Aptos          | Diego Garcia, Santi Grangetto      |                       |
+| [Rarible](#rarible)           | EVM, Solana          | Gonza Bustos                       |                       |
+| [Duel](#duel)                 | Evm-Base             | Tomas Freire, Gonza Bustos, Facu P | 21/05/2025            |
+| [Safe Fun](#safe-fun)         | Solana               | Rocko, Santi Grangetto, Tomi       | Sep. 2024 - Oct. 2024 |
+| [Penumbra](#penumbra)         | Cosmos like          | Alexis                             | 21/05/2025            |
+| [CryptoArt](#cryptoart)       | EVM                  | Jona                               |                       |
+| [Blockus](#blockus)           | EVM, Sui             | Alexis, Rocko                      |                       |
+| [Acme](#acme)                 | Evm, Solana          | Diego Garcia, Rocko                |                       |
+| [W3E](#w3e)                   | Evm                  | Gonza Ota                          |                       |
+| [Phenom Poker](#phenom-poker) | Evm                  | Juanma, Agus Chiarotto             |                       |
+| [Blockbound](#blockbound)     | Evm, Solana, Bitcoin | Elina, Juanma                      |                       |
+| [Lancelot](#lancelot)         | Evm, Solana          | Facu Panizza                       |                       |
 
 ---
 
@@ -86,8 +86,8 @@ Alexis Wolfsdorf
 
 **Desafíos técnicos**
 
-- Comprensión del funcionamiento general del protocolo. HARD
-- Entendimiento de Zk proofs y su uso en sistemas de privacidad.
+- Uso de chaching optimizado por estar accediendo directamente desde nextjs a una base de datos del cliente.
+- Uso de librerias de charts ([Apache Echarts](https://echarts.apache.org/))
 
 ## Ape Bonds
 
@@ -178,7 +178,7 @@ Rust, Anchor, TypeScript, Metaplex
 Solana
 
 **Repositorio**  
-Github (Space)
+Github (Space) https://github.com/SpaceUY/safe-fun - https://github.com/RoSpaceDev/raydium-contract-instructions
 
 **Devs**  
 Rocko, Santi Grangetto, Tomi
@@ -216,7 +216,7 @@ Jona, Facu
 
 - Tracking de eventos en tiempo real (Alchemy)
 - Multi-metadata con updates y eventos
-- Minteo con firma centralizada (“vouchers”)
+- Minteo con firma centralizada ("vouchers")
 - User Stories en chain logs
 
 ---
@@ -242,7 +242,7 @@ Rocko, Alexis
 - Uso de Reservoir para marketplace
 - Create2 para creación de contratos
 - ERC1155 factory con Beacon Pattern
-- Minteo a través de autoridad centralizada en backend que firma “vouchers”
+- Minteo a través de autoridad centralizada en backend que firma "vouchers"
 - Algoritmo para hacer derivacions deterministicas sobre una master key basados en un timestamp
 
 **Presentación en meet up**  
@@ -255,7 +255,7 @@ Link a canvas
 ### Updated at: [28/08/2024]
 
 **Descripción**  
-Plataforma que permite transaccionar de forma sencilla e intuitiva. Los usuarios completan distintos “intents” como:
+Plataforma que permite transaccionar de forma sencilla e intuitiva. Los usuarios completan distintos "intents" como:
 
 - Pagos cripto (con on ramp si es necesario)
 - Comprar/Vender tokens

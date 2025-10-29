@@ -4,13 +4,13 @@ layout: home
 nav_order: 1
 ---
 
-# Welcome to SpaceDev's Blockchain Techbook!
+# Welcome to SpaceDev's Blockchain Guidelines!
 
 ---
 
 Hey Team!
 
-Welcome to our blockchain techbook!
+Welcome to our blockchain guidelines!
 
 This learning hub is your gateway to a wealth of resources on blockchain development, focusing on both Ethereum Virtual Machine (EVM) and Solana ecosystems. Whether you’re a beginner or looking to deepen your expertise, you’ll find materials tailored to your learning journey.
 
@@ -30,5 +30,5 @@ Our aim is to empower you to develop your career in blockchain, fostering skills
 
 Dive in and start exploring the resources available. Don’t hesitate to reach out to mentors and peers within our community for support. Together, we’ll build a strong foundation in blockchain technology and contribute to shaping the future.
 
-[this repository]: https://github.com/SpaceUY/blockchain-techbook
+[this repository]: https://github.com/SpaceUY/blockchain-guidelines
 [dedicated channel in Mattermost]: https://chat.spacedev.uy/space/channels/blockchain

@@ -8,12 +8,14 @@ nav_order: 4
 
 | Project                       | Blockchains          | Devs                               | Updated At            |
 | ----------------------------- | -------------------- | ---------------------------------- | --------------------- |
-| [Ape Bonds](#ape-bonds)       | Solana               | Diego Garcia                       |                       |
-| [Mostaza](#mostaza)           | EVM                  | Tomi                               |                       |
+| [Collector Crypt](#coll-crypt)| Solana               | Tomi F                             |                       |
+| [Division One Crypto](#d1c)   | Solana               | Tomi F                             |                       |
+| [ApeBond](#ape-bond)          | Solana               | Diego Garcia, Tomi F               |                       |
+| [Mostaza](#mostaza)           | EVM                  | Tomi F                             |                       |
 | [Fight FI](#fight-fi)         | Flow, Aptos          | Diego Garcia, Santi Grangetto      |                       |
 | [Rarible](#rarible)           | EVM, Solana          | Gonza Bustos                       |                       |
-| [Duel](#duel)                 | Evm-Base             | Tomas Freire, Gonza Bustos, Facu P | 21/05/2025            |
-| [Safe Fun](#safe-fun)         | Solana               | Rocko, Santi Grangetto, Tomi       | Sep. 2024 - Oct. 2024 |
+| [Duel](#duel)                 | Evm-Base             | Tomi F, Gonza Bustos, Facu P       | 21/05/2025            |
+| [Safe Fun](#safe-fun)         | Solana               | Rocko, Santi Grangetto, Tomi F     | Sep. 2024 - Oct. 2024 |
 | [Penumbra](#penumbra)         | Cosmos like          | Alexis                             | 21/05/2025            |
 | [CryptoArt](#cryptoart)       | EVM                  | Jona                               |                       |
 | [Blockus](#blockus)           | EVM, Sui             | Alexis, Rocko                      |                       |
@@ -89,7 +91,25 @@ Alexis Wolfsdorf
 - Uso de chaching optimizado por estar accediendo directamente desde nextjs a una base de datos del cliente.
 - Uso de librerias de charts ([Apache Echarts](https://echarts.apache.org/))
 
-## Ape Bonds
+## ApeBond
+
+**Descripción**
+
+ApeBond es un protocolo DeFi en el que otros protocolos (partners) y DAOs pueden vender sus tokens (Bonds) con un descuento a usuarios para obtener liquidez instantánea en lugar de hacerlo por medios más tradicionales.
+
+**Tech Stack**  
+Solana, Anchor, Rust, React
+
+**Chains**  
+Solana
+
+**Devs**  
+Diego García, Tomi Freire
+
+**Desafíos técnicos**
+
+- Migración del protocolo ya establecido en cadenas EVM a Solana
+- Implementación de nuevos features en Solana
 
 ## Mostaza
 

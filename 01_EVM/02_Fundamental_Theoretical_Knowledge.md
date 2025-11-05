@@ -302,6 +302,78 @@ nav_order: 2
 
 ---
 
+- **ERC vs EIP**
+
+    - **EIP (Ethereum Improvement Proposal)**: A formal proposal document that describes standards, features, or changes to the Ethereum ecosystem. EIPs can cover protocol-level changes, application-level standards, or informational documentation. All standards start as EIPs.
+
+      - [EIP Repository](https://github.com/ethereum/EIPs)
+
+    - **ERC (Ethereum Request for Comments)**: A specific category of EIPs that focuses on application-level standards and conventions. ERCs are EIPs that have been accepted and standardized for smart contract interfaces and implementations. The term "ERC" is often used interchangeably with token standards, but it can also refer to other application-level standards.
+
+    - **Summary**: EIP is the broader category (all proposals), while ERC is a subset of EIPs specifically for application-level standards. ERCs are numbered EIPs (e.g., ERC-20 is also EIP-20).
+
+---
+
+- **Useful standards**
+
+  - **ERC-20 (Fungible Tokens)**
+
+    - Standard for fungible tokens (each token is identical and interchangeable). Defines a common interface for tokens with functions like `transfer()`, `approve()`, `balanceOf()`, and `totalSupply()`. Used for cryptocurrencies, stablecoins, governance tokens, and any token where units are equivalent.
+
+      - [EIP-20: ERC-20 Token Standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
+
+      - Projects that use this standard: Mostaza, Acme, Aura 
+
+  - **ERC-721 (Non-Fungible Tokens - NFTs)**
+
+    - Standard for non-fungible tokens where each token is unique and distinguishable. Each token has a unique identifier and can have its own metadata. Used for collectibles, digital art, gaming assets, and any unique digital item.
+
+      - [EIP-721: ERC-721 Non-Fungible Token Standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
+
+      - Projects that use this standard: Acme (Through third web), 
+
+  - **ERC-1155 (Multi-Token Standard)**
+
+    - Unified standard that can represent both fungible and non-fungible tokens in a single contract. Supports batch operations (transfer multiple token types in one transaction). More gas-efficient for managing multiple token types. Used in gaming, where a contract might need to handle both currencies (fungible) and items (non-fungible).
+
+      - [EIP-1155: ERC-1155 Multi Token Standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1155.md)
+
+  - **ERC-4626 (Tokenized Vault Standard)**
+
+    - Standard for yield-bearing vaults that wrap ERC-20 tokens to generate yield. Provides a unified interface for vaults that accrue value over time through strategies like lending, staking, or liquidity provision. Enables composability between different yield-generating protocols and simplifies integration with DeFi applications. Used in yield aggregators, lending protocols, and automated yield strategies.
+
+      - [EIP-4626: Tokenized Vault Standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4626.md)
+
+  - **ERC-4337 (Account Abstraction)**
+
+    - Standard for account abstraction without requiring consensus-layer changes. Allows smart contracts to act as wallets (smart contract wallets) with custom validation logic, sponsored transactions, signature aggregation, and recovery mechanisms. Enables gasless transactions, social recovery, and multi-sig wallets without protocol changes.
+
+      - [EIP-4337: Account Abstraction using alt mempool](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4337.md)
+
+  - **EIP-712 (Structured Data Signing)**
+
+    - Standard for signing typed, structured data instead of raw bytes. Provides a way to sign human-readable messages with type information, making signatures more secure and user-friendly. Used in meta-transactions, authentication systems, and any scenario where users need to sign structured data that can be verified on-chain. Enables wallets to display readable messages before signing.
+
+      - [EIP-712: Typed structured data hashing and signing](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md)
+
+---
+
+- **Additional interesting standards**
+
+  - **ERC-6909 (Minimal Multi-Token Standard)**
+
+    - A minimal, gas-efficient standard for contracts that manage multiple token types. Provides a simpler interface than ERC-1155, focusing on core functionality for token accounting and transfers. Designed for scenarios where multiple token types need to be tracked efficiently without the full feature set of ERC-1155. More gas-efficient for basic multi-token operations.
+
+      - [EIP-6909: Minimal Multi-Token Standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-6909.md)
+
+  - **EIP-7702 (Set Code Authorization)**
+
+    - Proposal that allows EOAs (Externally Owned Accounts) to temporarily execute code from a contract address during a transaction. Enables account abstraction features by allowing EOAs to behave like smart contracts for a single transaction without permanently converting them. Provides a way to use account abstraction without deploying a separate smart contract wallet. Allows users to enjoy the benefits of smart contract wallets (multi-sig, social recovery, etc.) while maintaining EOA addresses.
+
+      - [EIP-7702: Set EOA Code](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-7702.md)
+
+---
+
 ### Useful references:
 
 [https://ethereum.org/en/developers/docs/intro-to-ethereum/](https://ethereum.org/en/developers/docs/intro-to-ethereum/)

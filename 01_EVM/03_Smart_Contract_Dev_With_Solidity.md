@@ -17,7 +17,6 @@ Build step by step based on: [https://docs.google.com/document/d/1eRGYyEaO0O83Yx
 **_Pending:_**
 
 - Storage Layout
-- Upgradeability
 - Meta Transactions
 
 ### Upgradeability:
@@ -35,6 +34,33 @@ Build step by step based on: [https://docs.google.com/document/d/1eRGYyEaO0O83Yx
 - Symbolic Execution ([Mythril](https://joran-honig.medium.com/introduction-to-mythril-classic-and-symbolic-execution-ef59339f259b))
 
 [https://github.com/trailofbits/eth-security-toolbox](https://github.com/trailofbits/eth-security-toolbox)
+
+### Pre-built Contracts & Thirdweb
+
+Before creating custom contracts from scratch, it's recommended to explore pre-built, audited contract solutions. **Thirdweb** is a valuable resource that provides a comprehensive library of battle-tested, audited smart contracts that can significantly reduce development time and security risks.
+
+#### Why use thirdweb?
+
+- **Audited Contracts**: All contracts are professionally audited, reducing security vulnerabilities
+- **Time Efficiency**: Pre-built contracts save development time and allow focusing on core business logic
+- **Standards Compliance**: Contracts follow ERC standards (ERC-20, ERC-721, ERC-1155, etc.)
+- **Composability**: Modular architecture allows for easy customization and extension
+- **Production Ready**: Contracts are tested and used in production environments
+
+#### Contracts
+
+- **Tokens**: ERC-20, ERC-721 (NFTs), ERC-1155 (Multi-token)
+- **Drops**: Token drops, NFT drops, Edition drops with claim conditions
+- **Marketplace**: NFT marketplace functionality
+- **Staking**: Token staking mechanisms
+- **Account Abstraction**: ERC-4337 smart wallet contracts
+- **And more**: Split payments, voting, multiwrap, and various extensions
+
+#### Resources
+
+- [Thirdweb Portal](https://portal.thirdweb.com/) - Deploy and manage contracts
+- [Thirdweb Contracts Documentation](https://portal.thirdweb.com/tokens/explore/pre-built-contracts/token) - Explore pre-built contracts
+- [Thirdweb Contracts GitHub](https://github.com/thirdweb-dev/contracts) - Source code and documentation
 
 ## Style Guide
 

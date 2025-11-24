@@ -2,6 +2,7 @@
 title: Compendium
 layout: home
 nav_order: 2
+permalink: /compendium/
 ---
 
 # Blockchain Compendium

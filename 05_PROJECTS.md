@@ -2,6 +2,7 @@
 title: Blockchain Projects
 layout: home
 nav_order: 5
+permalink: /projects/
 ---
 
 ## Proyectos
@@ -11,19 +12,20 @@ nav_order: 5
 | [Collector Crypt](#coll-crypt)| [Solana](compendium#solana) | Tomi Freire | |
 | [Division One Crypto](#d1c)   | [Solana](compendium#solana) | Tomi Freire | |
 | [ApeBond](#ape-bond)          | [Solana](compendium#solana) | Diego García, Tomi Freire | |
-| [Mostaza](#mostaza)           | EVM | Tomi Freire | |
+| [Mostaza](#mostaza)           | [EVM](evm) | Tomi Freire | |
 | [Fight FI](#fight-fi)         | Flow, [Aptos](compendium#aptos) | Diego García, Santi Grangetto | |
-| [Rarible](#rarible)           | EVM, [Solana](compendium#solana) | Gonza Bustos | |
+| [Blockchain for Energy](#blockchain-for-energy) | [hedera](compendium#hedera) | Diego García, Santi Grangetto | Frank Mangone, Facu Panizza, Rocko Pintos | |
+| [Rarible](#rarible)           | [EVM](evm), [Solana](compendium#solana) | Gonza Bustos | |
 | [Duel](#duel)                 | Evm-Base | Tomi Freire, Gonza Bustos, Facu Panizza | 21/05/2025 |
 | [Safe Fun](#safe-fun)         | [Solana](compendium#solana) | Rocko Pintos, Santi Grangetto, Tomi Freire | Sep. 2024 - Oct. 2024 |
 | [Penumbra](#penumbra)         | Cosmos-like | Alexis Wolfsdorf | 21/05/2025 |
-| [CryptoArt](#cryptoart)       | EVM | Jona Allegretti | |
-| [Blockus](#blockus)           | EVM, [Sui](compendium#sui) | Alexis Wolfsdorf, Rocko Pintos | |
-| [Acme](#acme)                 | EVM, [Solana](compendium#solana) | Diego García, Rocko Pintos | |
-| [W3E](#w3e)                   | EVM | Gonza Othacehe | |
-| [Phenom Poker](#phenom-poker) | EVM | Juanma Pereira, Agus Chiarotto | |
-| [Blockbound](#blockbound)     | EVM, [Solana](compendium#solana), Bitcoin | Elina García, Juanma Pereira | |
-| [Lancelot](#lancelot)         | EVM, [Solana](compendium#solana) | Facu Panizza | |
+| [CryptoArt](#cryptoart)       | [EVM](evm) | Jona Allegretti | |
+| [Blockus](#blockus)           | [EVM](evm), [Sui](compendium#sui) | Alexis Wolfsdorf, Rocko Pintos | |
+| [Acme](#acme)                 | [EVM](evm), [Solana](compendium#solana) | Diego García, Rocko Pintos | |
+| [W3E](#w3e)                   | [EVM](evm) | Gonza Othacehe | |
+| [Phenom Poker](#phenom-poker) | [EVM](evm) | Juanma Pereira, Agus Chiarotto | |
+| [Blockbound](#blockbound)     | [EVM](evm), [Solana](compendium#solana), Bitcoin | Elina García, Juanma Pereira | |
+| [Lancelot](#lancelot)         | [EVM](evm), [Solana](compendium#solana) | Facu Panizza | |
 
 ---
 
@@ -165,6 +167,13 @@ Tomás Freire
 **Desafíos técnicos**
 
 - Realizar la dinámica de apuestas de la manera más eficiente posible en términos de gas y simpleza para el usuario sin resignar funcionalidades.
+
+---
+
+## Blockchain for Energy
+
+**Devs**
+Frank Mangone, Facu Panizza, Rocko Pintos
 
 ## Rarible
 

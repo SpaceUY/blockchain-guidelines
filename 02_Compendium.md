@@ -108,7 +108,7 @@ Sui is a Layer 1 blockchain built with an object-centric data model and the Move
 
 | Characteristic | Description |
 |----------------|-------------|
-| **Consensus Mechanism** | [Mysticeti](https://blog.sui.io/mysticeti-consensus-protocol/) - High-throughput BFT consensus (PoS); formerly [Narwhal and Bullshark](https://docs.sui.io/learn/architecture/consensus) |
+| **Consensus Mechanism** | [Mysticeti](https://docs.sui.io/concepts/sui-architecture/consensus#mysticeti) - High-throughput BFT consensus (PoS) |
 | **Virtual Machine/Runtime** | [Move VM](https://docs.sui.io/concepts/sui-move-concepts) with [object-centric execution model](https://docs.sui.io/concepts/object-ownership) |
 | **Smart Contract Language** | [Sui Move](https://docs.sui.io/concepts/sui-move-concepts) - Object-centric variant of Move |
 | **Throughput** | ~5,000-20,000 TPS (observed), theoretically 100,000+ TPS |
@@ -134,4 +134,41 @@ Sui is a Layer 1 blockchain built with an object-centric data model and the Move
 - Native support for [programmable transaction blocks](https://docs.sui.io/concepts/transactions/prog-txn-blocks) (PTBs) for complex composable operations
 - [Kiosk standard](https://docs.sui.io/standards/kiosk) for creator royalty enforcement and transfer policies
 
+---
+
+## Hedera
+
+Hedera is a Layer 1 distributed ledger platform built on hashgraph consensus, offering enterprise-grade performance with unique governance and native services.
+
+| Characteristic | Description |
+|----------------|-------------|
+| **Consensus Mechanism** | [Hashgraph](https://hedera.com/learning/hedera-hashgraph/what-is-hashgraph-consensus) - Asynchronous Byzantine Fault Tolerant (aBFT) consensus (PoS) |
+| **Virtual Machine/Runtime** | [EVM-compatible](https://docs.hedera.com/hedera/smart-contracts) with a suite of native services |
+| **Smart Contract Language** | [Solidity](https://www.soliditylang.org/) (full EVM compatibility) |
+| **Throughput** | ~10,000 TPS (network capacity), low and predictable fees |
+| **Block Time** | ~3-5 seconds finality |
+| **Architecture** | Directed Acyclic Graph (DAG) based, not a traditional blockchain - data is stored in cryptographically linked files |
+| **Fee Model** | Fixed, low-cost fee structure denominated in USD but paid in HBAR |
+
+**Major Updates:**
+
+- **Mainnet Launch** (September 2019): Initial mainnet deployment
+- **HCS 2.0** (2021): Enhanced [Hedera Consensus Service](https://docs.hedera.com/hedera/sdks-and-apis/sdks/consensus-service) capabilities
+- **Smart Contracts 2.0** (2022): Full EVM equivalence with improved performance
+- **Token Service v2** (2023): Enhanced [HTS features](https://docs.hedera.com/hedera/sdks-and-apis/sdks/token-service) including custom fees and royalties
+- **Staking** (2023): Native proof-of-stake staking mechanism
+- **EVM Compatibility Updates** (2024): Continued improvements for Ethereum developer experience
+
+**Additional notes:**
+
+- **[Hashgraph consensus](https://hedera.com/learning/hedera-hashgraph/what-is-hashgraph-consensus)** provides **aBFT (asynchronous Byzantine Fault Tolerant)** security - the highest level of security for distributed systems
+- **[Governed by a council](https://hedera.com/council)** of diverse global organizations (Google, IBM, Boeing, Deutsche Telekom, etc.) preventing centralized control
+- **Native Services** beyond smart contracts:
+  - [HCS (Hedera Consensus Service)](https://docs.hedera.com/hedera/sdks-and-apis/sdks/consensus-service): Decentralized ordering and timestamping
+  - [HTS (Hedera Token Service)](https://docs.hedera.com/hedera/sdks-and-apis/sdks/token-service): Native token creation without smart contracts
+  - [HFS (Hedera File Service)](https://docs.hedera.com/hedera/sdks-and-apis/sdks/file-service): Decentralized file storage
+- **Fixed fee structure** makes costs predictable for enterprise applications
+- Full **EVM compatibility** allows easy migration of Ethereum dApps
+
+---
 

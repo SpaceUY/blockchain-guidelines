@@ -11,7 +11,7 @@ This first section lists some of the most relevant blockchain projects, and thei
 
 ## Ethereum
 
-Ethereum is an open-source blockchain platform, the original proponent of **smart contracts** and **decentralized applications** (dApps).
+Ethereum is an open-source Layer-1 blockchain platform, the original proponent of **smart contracts** and **decentralized applications** (dApps).
 
 | Characteristic | Description |
 |----------------|-------------|
@@ -39,7 +39,7 @@ Ethereum is an open-source blockchain platform, the original proponent of **smar
 
 ## Solana
 
-Solana is a high-performance blockchain platform designed for scalability and speed, featuring unique architectural innovations for parallel transaction processing.
+Solana is a high-performance Layer 1 blockchain platform designed for scalability and speed, featuring unique architectural innovations for parallel transaction processing.
 
 | Characteristic | Description |
 |----------------|-------------|
@@ -66,3 +66,39 @@ Solana is a high-performance blockchain platform designed for scalability and sp
 - Transactions can be natively [batched](https://solana.com/docs/core/transactions)
 - The [SPL (Solana Program Library)](https://spl.solana.com/) contains standard programs, including tokens
 - Supports [Anchor framework](https://www.anchor-lang.com/) for simplified smart contract development
+
+---
+
+## Aptos
+
+Aptos is a Layer 1 blockchain focused on safety, scalability, and upgradeability.
+
+| Characteristic | Description |
+|----------------|-------------|
+| **Consensus Mechanism** | [AptosBFT](https://aptos.dev/en/network/blockchain/blockchain-deep-dive#consensus) - Byzantine Fault Tolerant consensus (PoS) based on [HotStuff](https://github.com/asonnino/hotstuff) |
+| **Virtual Machine/Runtime** | [Move VM](https://aptos.dev/en/build/smart-contracts) with [Block-STM](https://aptos.dev/en/network/blockchain/blockchain-deep-dive#parallel-execution) for parallel execution |
+| **Smart Contract Language** | [Move](https://move-language.github.io/move/) - Resource-oriented programming language |
+| **Throughput** | ~10,000-160,000 TPS (theoretical), ~4,000-7,000 TPS (observed) |
+| **Block Time** | Sub-second finality (~300-500ms) |
+| **Architecture** | Account-based model with resource-oriented design |
+| **Fee Model** | Gas-based fee market with [gas fee delegation](https://aptos.dev/en/build/guides/aptos-gas) |
+
+**Major Updates:**
+
+- **Mainnet Launch** (October 2022): Initial mainnet deployment
+- **Token Standard v2** (2023): Enhanced fungible and non-fungible token standards
+- **Keyless Accounts** (2024): [Blockchain-native OAuth](https://aptos.dev/en/build/guides/aptos-keyless) for seamless onboarding
+- **Randomness API** (2024): On-chain verifiable randomness
+- **Fungible Assets** (2024): New flexible token standard
+- **Passkey Support** (2024): WebAuthn integration for improved UX
+
+**Additional notes:**
+
+- **[Move language](https://move-language.github.io/move/)** provides resource safety through linear types, preventing common vulnerabilities like double-spending
+- **[Block-STM](https://aptos.dev/en/network/blockchain/blockchain-deep-dive#parallel-execution)** enables **optimistic parallel transaction execution** with **automatic conflict detection**
+- Native [multisig support](https://aptos.dev/en/build/guides/build-e2e-dapp/3-add-wallet-support#multi-agent-transactions) and transaction sponsorship
+- Focus on formal verification and security through Move's design
+- Supports [Aptos Standards](https://aptos.dev/en/build/smart-contracts/aptos-standards) for tokens, NFTs, and digital assets
+
+---
+

@@ -1,29 +1,31 @@
 ---
 title: Blockchain Projects
 layout: home
-nav_order: 4
+nav_order: 5
+permalink: /projects/
 ---
 
 ## Proyectos
 
 | Project                       | Blockchains          | Devs                               | Updated At            |
 | ----------------------------- | -------------------- | ---------------------------------- | --------------------- |
-| [Collector Crypt](#coll-crypt)| Solana               | Tomi F                             |                       |
-| [Division One Crypto](#d1c)   | Solana               | Tomi F                             |                       |
-| [ApeBond](#ape-bond)          | Solana               | Diego Garcia, Tomi F               |                       |
-| [Mostaza](#mostaza)           | EVM                  | Tomi F                             |                       |
-| [Fight FI](#fight-fi)         | Flow, Aptos          | Diego Garcia, Santi Grangetto      |                       |
-| [Rarible](#rarible)           | EVM, Solana          | Gonza Bustos                       |                       |
-| [Duel](#duel)                 | Evm-Base             | Tomi F, Gonza Bustos, Facu P       | 21/05/2025            |
-| [Safe Fun](#safe-fun)         | Solana               | Rocko, Santi Grangetto, Tomi F     | Sep. 2024 - Oct. 2024 |
-| [Penumbra](#penumbra)         | Cosmos like          | Alexis                             | 21/05/2025            |
-| [CryptoArt](#cryptoart)       | EVM                  | Jona                               |                       |
-| [Blockus](#blockus)           | EVM, Sui             | Alexis, Rocko                      |                       |
-| [Acme](#acme)                 | Evm, Solana          | Diego Garcia, Rocko                |                       |
-| [W3E](#w3e)                   | Evm                  | Gonza Ota                          |                       |
-| [Phenom Poker](#phenom-poker) | Evm                  | Juanma, Agus Chiarotto             |                       |
-| [Blockbound](#blockbound)     | Evm, Solana, Bitcoin | Elina, Juanma                      |                       |
-| [Lancelot](#lancelot)         | Evm, Solana          | Facu Panizza                       |                       |
+| [Collector Crypt](#coll-crypt)| [Solana](compendium#solana) | Tomi Freire | |
+| [Division One Crypto](#d1c)   | [Solana](compendium#solana) | Tomi Freire | |
+| [ApeBond](#ape-bond)          | [Solana](compendium#solana) | Diego García, Tomi Freire | |
+| [Mostaza](#mostaza)           | [EVM](evm) | Tomi Freire | |
+| [Fight FI](#fight-fi)         | Flow, [Aptos](compendium#aptos) | Diego García, Santi Grangetto | |
+| [Blockchain for Energy](#blockchain-for-energy) | [hedera](compendium#hedera) | Diego García, Santi Grangetto | Frank Mangone, Facu Panizza, Rocko Pintos | |
+| [Rarible](#rarible)           | [EVM](evm), [Solana](compendium#solana) | Gonza Bustos | |
+| [Duel](#duel)                 | Evm-Base | Tomi Freire, Gonza Bustos, Facu Panizza | 21/05/2025 |
+| [Safe Fun](#safe-fun)         | [Solana](compendium#solana) | Rocko Pintos, Santi Grangetto, Tomi Freire | Sep. 2024 - Oct. 2024 |
+| [Penumbra](#penumbra)         | Cosmos-like | Alexis Wolfsdorf | 21/05/2025 |
+| [CryptoArt](#cryptoart)       | [EVM](evm) | Jona Allegretti | |
+| [Blockus](#blockus)           | [EVM](evm), [Sui](compendium#sui) | Alexis Wolfsdorf, Rocko Pintos | |
+| [Acme](#acme)                 | [EVM](evm), [Solana](compendium#solana) | Diego García, Rocko Pintos | |
+| [W3E](#w3e)                   | [EVM](evm) | Gonza Othacehe | |
+| [Phenom Poker](#phenom-poker) | [EVM](evm) | Juanma Pereira, Agus Chiarotto | |
+| [Blockbound](#blockbound)     | [EVM](evm), [Solana](compendium#solana), Bitcoin | Elina García, Juanma Pereira | |
+| [Lancelot](#lancelot)         | [EVM](evm), [Solana](compendium#solana) | Facu Panizza | |
 
 ---
 
@@ -165,6 +167,13 @@ Tomás Freire
 **Desafíos técnicos**
 
 - Realizar la dinámica de apuestas de la manera más eficiente posible en términos de gas y simpleza para el usuario sin resignar funcionalidades.
+
+---
+
+## Blockchain for Energy
+
+**Devs**
+Frank Mangone, Facu Panizza, Rocko Pintos
 
 ## Rarible
 

@@ -12,13 +12,13 @@ nav_order: 5
 | [Division One Crypto](#d1c)   | [Solana](compendium#solana) | Tomi Freire | |
 | [ApeBond](#ape-bond)          | [Solana](compendium#solana) | Diego García, Tomi Freire | |
 | [Mostaza](#mostaza)           | EVM | Tomi Freire | |
-| [Fight FI](#fight-fi)         | Flow, Aptos | Diego García, Santi Grangetto | |
+| [Fight FI](#fight-fi)         | Flow, [Aptos](compendium#aptos) | Diego García, Santi Grangetto | |
 | [Rarible](#rarible)           | EVM, [Solana](compendium#solana) | Gonza Bustos | |
 | [Duel](#duel)                 | Evm-Base | Tomi Freire, Gonza Bustos, Facu Panizza | 21/05/2025 |
 | [Safe Fun](#safe-fun)         | [Solana](compendium#solana) | Rocko Pintos, Santi Grangetto, Tomi Freire | Sep. 2024 - Oct. 2024 |
 | [Penumbra](#penumbra)         | Cosmos-like | Alexis Wolfsdorf | 21/05/2025 |
 | [CryptoArt](#cryptoart)       | EVM | Jona Allegretti | |
-| [Blockus](#blockus)           | EVM, Sui | Alexis Wolfsdorf, Rocko Pintos | |
+| [Blockus](#blockus)           | EVM, [Sui](compendium#sui) | Alexis Wolfsdorf, Rocko Pintos | |
 | [Acme](#acme)                 | EVM, [Solana](compendium#solana) | Diego García, Rocko Pintos | |
 | [W3E](#w3e)                   | EVM | Gonza Othacehe | |
 | [Phenom Poker](#phenom-poker) | EVM | Juanma Pereira, Agus Chiarotto | |

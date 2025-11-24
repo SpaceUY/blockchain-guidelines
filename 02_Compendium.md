@@ -102,3 +102,36 @@ Aptos is a Layer 1 blockchain focused on safety, scalability, and upgradeability
 
 ---
 
+## Sui
+
+Sui is a Layer 1 blockchain built with an object-centric data model and the Move programming language, designed for horizontal scalability and low-latency transactions.
+
+| Characteristic | Description |
+|----------------|-------------|
+| **Consensus Mechanism** | [Mysticeti](https://blog.sui.io/mysticeti-consensus-protocol/) - High-throughput BFT consensus (PoS); formerly [Narwhal and Bullshark](https://docs.sui.io/learn/architecture/consensus) |
+| **Virtual Machine/Runtime** | [Move VM](https://docs.sui.io/concepts/sui-move-concepts) with [object-centric execution model](https://docs.sui.io/concepts/object-ownership) |
+| **Smart Contract Language** | [Sui Move](https://docs.sui.io/concepts/sui-move-concepts) - Object-centric variant of Move |
+| **Throughput** | ~5,000-20,000 TPS (observed), theoretically 100,000+ TPS |
+| **Block Time** | ~400-500ms finality |
+| **Architecture** | [Object-based model](https://docs.sui.io/concepts/object-ownership) with owned, shared, and immutable objects |
+| **Fee Model** | Gas-based with [sponsored transactions](https://docs.sui.io/concepts/transactions/sponsored-transactions) and [gas smashing](https://docs.sui.io/concepts/transactions/gas-smashing) |
+
+**Major Updates:**
+
+- **Mainnet Launch** (May 2023): Initial mainnet deployment
+- **Mysticeti Consensus** (2024): New consensus protocol with sub-second finality
+- **GraphQL Support** (2024): Enhanced querying capabilities for dApps
+- **zkLogin** (2024): [Zero-knowledge proofs for authentication](https://docs.sui.io/concepts/cryptography/zklogin) via OAuth providers
+- **DeepBook v3** (2024): Native on-chain order book for DeFi
+- **Walrus Protocol** (2024): Decentralized storage and data availability layer
+
+**Additional notes:**
+
+- **[Object-centric model](https://docs.sui.io/concepts/object-ownership)** enables **causally ordered transactions** - simple transactions bypass consensus entirely for instant finality
+- **[Sui Move](https://docs.sui.io/concepts/sui-move-concepts)** extends Move with object ownership semantics, enabling true digital asset representation
+- **[Parallel execution](https://docs.sui.io/learn/how-sui-works)** through object ownership model - transactions affecting different objects execute in parallel
+- **[zkLogin](https://docs.sui.io/concepts/cryptography/zklogin)** enables Web2-style onboarding with cryptographic privacy
+- Native support for [programmable transaction blocks](https://docs.sui.io/concepts/transactions/prog-txn-blocks) (PTBs) for complex composable operations
+- [Kiosk standard](https://docs.sui.io/standards/kiosk) for creator royalty enforcement and transfer policies
+
+

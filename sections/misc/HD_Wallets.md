@@ -1,7 +1,7 @@
 ---
 title: HD Wallets (tbd)
 layout: home
-parent: Specific Knowledge
+parent: Miscellaneous
 ---
 
 # HD Wallets

@@ -1,7 +1,7 @@
 ---
 title: Elliptic Curves
 layout: home
-parent: Specific Knowledge
+parent: Miscellaneous
 ---
 
 # Elliptic Curves

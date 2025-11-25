@@ -9,6 +9,8 @@ nav_order: 1
 # Basic Initial Knowledge
 ---
 
+> This section has references to videos and documentation that the technical or non-technical reader can access for their first introduction to EVM. Does not require prior knowledge.
+
 **Video (2022)** - [Webinar: Introduction to Blockchain and NFTs](https://drive.google.com/open?id=1H4mmnFsHGn97pYsGD0OGUnQy_thiIX29)
 
 **Content:**

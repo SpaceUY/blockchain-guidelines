@@ -1,7 +1,7 @@
 ---
 title: The Graph
 layout: home
-parent: Specific Knowledge
+parent: Miscellaneous
 ---
 
 # The Graph

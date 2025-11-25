@@ -2,6 +2,7 @@
 title: Basic Initial Knowledge
 layout: home
 parent: Ethereum Virtual Machine
+permalink: /evm/basics
 nav_order: 1
 ---
 

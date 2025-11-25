@@ -14,7 +14,7 @@ permalink: /projects/
 | [ApeBond](#ape-bond)          | [Solana](compendium#solana) | Diego García, Tomi Freire | |
 | [Mostaza](#mostaza)           | [EVM](evm) | Tomi Freire | |
 | [Fight FI](#fight-fi)         | Flow, [Aptos](compendium#aptos) | Diego García, Santi Grangetto | |
-| [Blockchain for Energy](#blockchain-for-energy) | [hedera](compendium#hedera) | Diego García, Santi Grangetto | Frank Mangone, Facu Panizza, Rocko Pintos | |
+| [Blockchain for Energy](#blockchain-for-energy) | [Hedera](compendium#hedera) | Diego García, Santi Grangetto, Frank Mangone, Facu Panizza, Rocko Pintos | |
 | [Rarible](#rarible)           | [EVM](evm), [Solana](compendium#solana) | Gonza Bustos | |
 | [Duel](#duel)                 | Evm-Base | Tomi Freire, Gonza Bustos, Facu Panizza | 21/05/2025 |
 | [Safe Fun](#safe-fun)         | [Solana](compendium#solana) | Rocko Pintos, Santi Grangetto, Tomi Freire | Sep. 2024 - Oct. 2024 |
@@ -26,8 +26,6 @@ permalink: /projects/
 | [Phenom Poker](#phenom-poker) | [EVM](evm) | Juanma Pereira, Agus Chiarotto | |
 | [Blockbound](#blockbound)     | [EVM](evm), [Solana](compendium#solana), Bitcoin | Elina García, Juanma Pereira | |
 | [Lancelot](#lancelot)         | [EVM](evm), [Solana](compendium#solana) | Facu Panizza | |
-
----
 
 # Penumbra
 

@@ -2,6 +2,7 @@
 title: Fundamental Theoretical Knowledge
 layout: home
 parent: Ethereum Virtual Machine
+permalink: /evm/fundamentals
 nav_order: 2
 ---
 

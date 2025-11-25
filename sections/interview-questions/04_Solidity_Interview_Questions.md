@@ -1,9 +1,9 @@
 ---
-title: Solidity Interview Questions
+title: Solidity
 layout: home
-parent: Ethereum Virtual Machine
-permalink: /evm/solidity-interview-questions
-nav_order: 4
+parent: Interview Questions
+permalink: /interview-questions/solidity
+nav_order: 1
 ---
 
 # Solidity Interview Questions

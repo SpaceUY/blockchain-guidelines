@@ -1,7 +1,7 @@
 ---
 title: Proto Danksharding
 layout: home
-parent: Specific Knowledge
+parent: Miscellaneous
 ---
 
 # Proto Danksharding

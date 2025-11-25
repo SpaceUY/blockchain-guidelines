@@ -1,12 +1,13 @@
 ---
-title: Blockchain Backend (tbd)
+title: Backend
 layout: home
-parent: EVM Developer Guide
+parent: Developer Guide
+grand_parent: Ethereum Virtual Machine
 permalink: /evm/developer-guide/backend
 nav_order: 2
 ---
 
-# Blockchain Backend
+# EVM Backend
 ---
 
 ### Coming soon...

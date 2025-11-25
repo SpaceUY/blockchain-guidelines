@@ -1,7 +1,7 @@
 ---
 title: GETH (tbd)
 layout: home
-parent: Specific Knowledge
+parent: Miscellaneous
 ---
 
 # GETH

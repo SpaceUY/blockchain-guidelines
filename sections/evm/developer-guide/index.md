@@ -1,5 +1,5 @@
 ---
-title: EVM Developer Guide
+title: Developer Guide
 layout: home
 parent: Ethereum Virtual Machine
 permalink: /evm/developer-guide

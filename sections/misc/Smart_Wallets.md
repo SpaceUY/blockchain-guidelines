@@ -1,7 +1,7 @@
 ---
 title: Smart Wallets (tbd)
 layout: home
-parent: Specific Knowledge
+parent: Miscellaneous
 ---
 
 # Smart Wallets

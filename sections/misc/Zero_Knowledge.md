@@ -1,7 +1,7 @@
 ---
 title: Zero Knowledge (tbd)
 layout: home
-parent: Specific Knowledge
+parent: Miscellaneous
 ---
 
 # Zero Knowledge

@@ -2,6 +2,8 @@
 title: EVM Resources
 layout: home
 parent: Ethereum Virtual Machine
+permalink: /evm/resources
+nav_order: 4
 ---
 
 # EVM Resources

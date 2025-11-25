@@ -1,7 +1,7 @@
 ---
 title: PECTRA Upgrade
 layout: home
-parent: Specific Knowledge
+parent: Miscellaneous
 ---
 
 # Pectra Upgrade

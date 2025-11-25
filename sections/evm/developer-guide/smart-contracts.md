@@ -1,12 +1,13 @@
 ---
 title: Smart Contracts
 layout: home
-parent: EVM Developer Guide
+parent: Developer Guide
+grand_parent: Ethereum Virtual Machine
 permalink: /evm/developer-guide/smart-contracts
 nav_order: 3
 ---
 
-# Smart Contract Dev With Solidity
+# EVM Smart Contract Development (Solidity)
 
 ---
 

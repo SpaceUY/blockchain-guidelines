@@ -2,6 +2,7 @@
 title: Smart Contract Dev With Solidity
 layout: home
 parent: Ethereum Virtual Machine
+permalink: /evm/smart-contract-dev
 nav_order: 3
 ---
 

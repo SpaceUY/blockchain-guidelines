@@ -2,6 +2,7 @@
 title: Solidity Interview Questions
 layout: home
 parent: Ethereum Virtual Machine
+permalink: /evm/solidity-interview-questions
 nav_order: 4
 ---
 

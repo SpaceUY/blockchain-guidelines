@@ -1,9 +1,9 @@
 ---
 title: Blockchain Frontend (tbd)
 layout: home
-parent: Ethereum Virtual Machine
-permalink: /evm/frontend
-nav_order: 6
+parent: EVM Developer Guide
+permalink: /evm/developer-guide/frontend
+nav_order: 1
 ---
 
 # Blockchain Frontend

@@ -9,6 +9,14 @@ nav_order: 3
 
 # EVM Smart Contract Development (Solidity)
 
+This document is aimed at developers who want to get involved in the development of smart contracts with Solidity.  
+
+It has the following sections:
+
+ - **Basic level**: The essentials of solidity.
+ - **Advanced level**: Appropriate content to be able to play a role in a productive environment. Topics are covered such as deployment, testing of different types, use of upgradeability patterns, gas optimization.
+ - **Specific Issues**: Issues that have been highlighted as recurring or complex and have already been faced/resolved within Space are described.
+
 ---
 
 Video: [Delving into EVM: How Ethereum Works Backstage](https://hackernoon.com/es/profundizando-en-evm-como-ethereum-works-backstage-ac7efa1f0015)

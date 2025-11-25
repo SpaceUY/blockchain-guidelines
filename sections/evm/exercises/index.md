@@ -1,7 +1,9 @@
 ---
-title: EVM Exercises
+title: Exercises
 layout: home
 parent: Ethereum Virtual Machine
+nav_order: 4
+permalink: /evm/exercises
 ---
 
 # EVM Exercises
